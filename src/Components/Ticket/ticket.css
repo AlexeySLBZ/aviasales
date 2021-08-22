@@ -1,0 +1,91 @@
+/*ticket style*/
+
+.ticket {
+    height: 184px;
+    width: 502px;
+    left: 355px;
+    top: 230px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.ticket__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.ticket__price {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    color: rgba(33, 150, 243, 1);
+}
+
+.ticket__air__company {
+    height: 36px;
+    left: 727px;
+    top: 250px;
+    background: violet;
+}
+
+.ticket__container__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 39px;
+    padding: 5px;
+}
+
+.ticket__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.info__ticket__route, .info__ticket__lenght, .info__ticket__stops  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 39px;
+    width: 141px;
+    left: 375px;
+    top: 306px;
+}
+
+.info__ticket__route__title,
+.info__ticket__lenght__text,
+.info__ticket__stops__counter {
+    height: 18px;
+    width: 141px;
+    left: 375px;
+    top: 306px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(160, 176, 185, 1);
+}
+
+.info__ticket__route__time,
+.info__ticket__lenght__time,
+.info__ticket__stops__name {
+    height: 21px;
+    width: 141px;
+    left: 375px;
+    top: 324px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(74, 74, 74, 1);
+}

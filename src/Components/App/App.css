@@ -1,0 +1,58 @@
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("fonts/OpenSans-Regular.ttf")
+}
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background: #E5E5E5;
+  display: flex;
+  justify-content: center;
+}
+
+.logo__container{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-items: center;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.logo-airplane-png{
+  height: 60px;
+  width: 60px;
+  left: 450px;
+  top: 50px;
+}
+
+.logo_S7 {
+  height: 36px;
+  width: 110px;
+  border-radius: 0px;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 960px;
+  height: 1350px;
+  border-width: 5px;
+  background: rgba(243, 247, 250, 1);
+  font-size: 20px;
+}
+
+.redux__test__wrapper {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    top:70%;
+    border-style: solid;
+    background: violet;
+}
+
+
+
