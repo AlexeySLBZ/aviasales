@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://alexeyslbz.github.io/aviasales/",
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -11,6 +12,7 @@
     "@types/node": "^12.19.2",
     "@types/react": "^16.9.54",
     "@types/react-dom": "^16.9.9",
+    "antd": "^4.17.2",
     "date-fns": "^2.16.1",
     "node-sass": "^6.0.0",
     "prop-types": "^15.7.2",
@@ -19,6 +21,7 @@
     "react-redux": "^7.2.4",
     "react-scripts": "3.4.4",
     "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
     "save-dev": "0.0.1-security",
     "typescript": "^4.0.5",
     "vercel": "^21.0.1",

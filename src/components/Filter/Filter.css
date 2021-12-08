@@ -71,8 +71,6 @@
     /*background: tomato;*/
 }
 
-
-
 .check__input:checked:focus + .custom__check__box {
     border: 1px solid rgba(33, 150, 243, 1);
     background-image: url(./img/Shape.svg);
@@ -99,6 +97,10 @@
 .check__input:disabled + .custom__check__box {
     border: 1px solid rgba(154, 187, 206, 1);
     background:rgba(154, 187, 206, 1);
+}
+
+.container__checkbox:hover {
+    background:rgba(241, 252, 255, 1);
 }
 
 .check__input:checked:disabled + .custom__check__box {
