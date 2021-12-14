@@ -35,7 +35,7 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint --cache ./src/**/*.{ts,tsx,js,jsx}",
     "lint:full": "npm run type-check && npm run lint",
-    "lint:fix": "eslint --cache ./src/**/*.{ts,tsx,js,jsx} --fix",
+    "lint:fix": "eslint ./src --fix --color",
     "prettier": "prettier --write src/**/*.{ts,tsx,js,jsx}",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.6.0",
+    "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.22.1",
@@ -67,6 +67,11 @@
     "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.js": [

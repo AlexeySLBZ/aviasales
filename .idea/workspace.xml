@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="860a9b06-4c51-42c7-905e-2e1f81595559" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -60,11 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\z0var\WebstormProjects\aviasales" />
       <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src" />
       <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\state" />
       <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\pages" />
       <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\Components\ReduxTest" />
-      <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\Components\Redux-Test " />
     </key>
   </component>
   <component name="RunManager" selected="npm.deploy">
@@ -187,7 +191,7 @@
       <workItem from="1638440008811" duration="17958000" />
       <workItem from="1638692944760" duration="6460000" />
       <workItem from="1638780754012" duration="34287000" />
-      <workItem from="1639474870067" duration="1823000" />
+      <workItem from="1639474870067" duration="15855000" />
     </task>
     <servers />
   </component>
