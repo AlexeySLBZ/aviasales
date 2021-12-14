@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="860a9b06-4c51-42c7-905e-2e1f81595559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aviasales.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/actionsForFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/actionsForSortingTickets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Filter/Filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tabs/sortingTickets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ticket/ticketBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/allTickets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducer/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/initialState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/fonts/OpenSans-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/fonts/OpenSans-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/fonts/OpenSans-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/fonts/OpenSans-Semibold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/img/LogoAirplan.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/img/LogoAirplan.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/img/S7 Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/img/S7 Logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Filter/Filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Filter/img/Shape.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/img/Shape.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tabs/Tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tabs/Tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Ticket/ticket.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ticket/ticket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Ticket/ticket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/actions/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/reducer/initialState.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/reducer/reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +67,7 @@
       <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\Components\Redux-Test " />
     </key>
   </component>
-  <component name="RunManager" selected="npm.predeploy">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -144,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.lint:fix" />
       </list>
     </recent_temporary>
@@ -217,7 +186,8 @@
       <workItem from="1638181979493" duration="1297000" />
       <workItem from="1638440008811" duration="17958000" />
       <workItem from="1638692944760" duration="6460000" />
-      <workItem from="1638780754012" duration="33071000" />
+      <workItem from="1638780754012" duration="34287000" />
+      <workItem from="1639474870067" duration="1823000" />
     </task>
     <servers />
   </component>
