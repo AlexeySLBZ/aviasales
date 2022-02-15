@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="860a9b06-4c51-42c7-905e-2e1f81595559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/S7 Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/app.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/combineReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/initialState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reducerFetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reducerFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reducerSorting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vercel/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vercel/project.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actionsForFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actionsForSortingTickets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/Tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/sortingTickets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/sortingTickets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ticket/ticketBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ticket/ticketBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/allTickets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer/reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/initialState.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,9 +73,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1uUfvVLsHdmdmfeDPlCHLv72CNA" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -51,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aviasaleswork" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,20 +94,31 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Turbo\IdeaProjects\aviasales\node_modules\prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\z0var\WebstormProjects\aviasales" />
-      <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src" />
-      <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\state" />
-      <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\pages" />
-      <recent name="C:\Users\Turbo\IdeaProjects\aviasales\src\Components\ReduxTest" />
+      <recent name="C:\Users\z0var\WebstormProjects\aviasales\src\reducers" />
+      <recent name="C:\Users\z0var\WebstormProjects\aviasales\src" />
+      <recent name="C:\Users\z0var\WebstormProjects\aviasales\src\store" />
+      <recent name="C:\Users\z0var\WebstormProjects\aviasales\src\store\reducers" />
+      <recent name="C:\Users\z0var\WebstormProjects\aviasales\src\store\forApi" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.lint:fix">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -95,6 +141,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="lint:full" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:full" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -105,11 +161,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="predeploy" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -117,9 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.lint:fix" />
+        <item itemvalue="npm.lint:full" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +249,32 @@
       <workItem from="1638440008811" duration="17958000" />
       <workItem from="1638692944760" duration="6460000" />
       <workItem from="1638780754012" duration="34287000" />
-      <workItem from="1639474870067" duration="15855000" />
+      <workItem from="1639474870067" duration="19023000" />
+      <workItem from="1639739186774" duration="3036000" />
+      <workItem from="1639750011332" duration="19744000" />
+      <workItem from="1639999215852" duration="12912000" />
+      <workItem from="1640459905757" duration="7841000" />
+      <workItem from="1640508694027" duration="36344000" />
+      <workItem from="1641549326987" duration="16097000" />
+      <workItem from="1641806631499" duration="17503000" />
+      <workItem from="1642074057252" duration="13566000" />
+      <workItem from="1642097522632" duration="11391000" />
+      <workItem from="1642342307438" duration="15017000" />
+      <workItem from="1642588843096" duration="12898000" />
+      <workItem from="1642820857020" duration="24953000" />
+      <workItem from="1643366810923" duration="20679000" />
+      <workItem from="1643483755336" duration="2311000" />
+      <workItem from="1643570958493" duration="26461000" />
+      <workItem from="1644184056285" duration="1041000" />
+      <workItem from="1644260484941" duration="2694000" />
+      <workItem from="1644313002867" duration="5566000" />
+      <workItem from="1644390869757" duration="30922000" />
+      <workItem from="1644662723096" duration="779000" />
+      <workItem from="1644663760325" duration="608000" />
+      <workItem from="1644666377068" duration="23753000" />
+      <workItem from="1644743655429" duration="4420000" />
+      <workItem from="1644779323304" duration="3618000" />
+      <workItem from="1644827619288" duration="1231000" />
     </task>
     <servers />
   </component>
@@ -209,5 +292,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,29 +1,29 @@
 import React from "react";
 import './Filter.css';
 import { connect } from "react-redux";
-import * as actionsForFilter from '../../actions/actionsForFilter'
 import PropTypes from "prop-types";
+import * as actions from "../../actions/actions";
 
 
 function Filter (props) {
-  const {state, toggleCheckAll, toggleCheckbox, GET_TICKETS} = props
-  const elements = state.checkBoxSettings.map((el) => {
-    const { label, id, isChecked,disabled } = el
+  const {checkBoxSettings, toggleCheckAll, toggleCheckbox} = props
+  const elements = checkBoxSettings.map((el) => {
+    const { label, id, isChecked} = el
     return (
       <label key={ id } className="container__checkbox option">
         <input type="checkbox" className="check__input totalCheckbox"
                onClick = {() => {
-                 id === 1? toggleCheckAll(id,isChecked):toggleCheckbox(id,isChecked)}
+                 id === "All"? toggleCheckAll(id,isChecked):toggleCheckbox(id,isChecked)}
                }
                checked={isChecked}
-               disabled={disabled}
         />
         <span className="custom__check__box"/>
         {label}
       </label>
       );
     });
-  return (
+
+    return (
       <div className="filter__checkbox__wrapper">
             <span className="container__checkbox__name option">
               КОЛИЧЕСТВО ПЕРЕСАДОК
@@ -33,9 +33,9 @@ function Filter (props) {
   )
 }
 
-const mapStateToProps = (state)=> {
+const mapStateToProps = ({reducerFilter})=> {
   return {
-    state
+      checkBoxSettings: reducerFilter.checkBoxSettings ,
   };
 }
 
@@ -48,4 +48,4 @@ Filter.propTypes = {
 };
 
 
-export default connect (mapStateToProps, actionsForFilter )(Filter)
+export default connect (mapStateToProps, actions)(Filter)

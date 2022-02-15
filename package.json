@@ -21,6 +21,7 @@
     "react-redux": "^7.2.4",
     "react-scripts": "3.4.4",
     "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
     "save-dev": "0.0.1-security",
     "typescript": "^4.0.5",
@@ -76,7 +77,6 @@
   "lint-staged": {
     "*.js": [
       "npm run lint:fix",
-      "npm run format",
       "git add"
     ]
   }

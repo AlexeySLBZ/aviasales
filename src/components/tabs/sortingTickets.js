@@ -1,37 +1,46 @@
 import React from "react";
-import { connect } from "react-redux";
+import {connect} from "react-redux";
 
 import './Tabs.css';
-import * as actionsForSortingTickets from "../../actions/actionsForSortingTickets";
 import PropTypes from "prop-types";
+import * as actions from "../../actions/actions";
 
 function SortingTickets(props) {
- const {state,THE_CHEAPSET,THE_FASTEST} = props
-  console.log ('State in Filter ticket',props)
-  return (
-    <div className="tabs">
-      <button className="tabs__button"
-              value="САМЫЙ ДЕШЕВЫЙ"
-              disabled={state.loadingEnd}
-              onClick={THE_CHEAPSET}>САМЫЙ ДЕШЕВЫЙ
-      </button>
-      <button className="tabs__button"
-              value="САМЫЙ БЫСТРЫЙ"
-              onClick={THE_FASTEST}
-      >САМЫЙ БЫСТРЫЙ</button>
-    </div>
-  )
+
+    const {THE_SORTING, sortingStatus} = props
+
+    const elements = sortingStatus.map((el) => {
+        const {id, label, isChecked} = el
+        const classes = ['tabs__button']
+
+        if (!isChecked) classes.push("tabs__button1")
+        return (
+            <button className={classes.join(' ')}
+                    id={id}
+                    onClick={() => {
+                        THE_SORTING(id, isChecked)
+                    }}>{label}
+            </button>
+        )
+    })
+
+    return (
+        <div className="tabs">
+            {elements}
+        </div>
+
+    )
 }
-const mapStateToProps = (state)=> {
-  return {
-    state
-  };
+
+const mapStateToProps = ({reducerSorting}) => {
+    return {
+        sortingStatus: reducerSorting.sortingStatus,
+    };
 }
 
 SortingTickets.propTypes = {
-    state: PropTypes.arrayOf(PropTypes.object).isRequired,
-    THE_FASTEST: PropTypes.func.isRequired,
-    THE_CHEAPSET:PropTypes.func.isRequired,
+    sortingStatus: PropTypes.arrayOf(PropTypes.object).isRequired,
+    THE_SORTING: PropTypes.func.isRequired,
 };
 
-export default connect (mapStateToProps, actionsForSortingTickets )(SortingTickets)
+export default connect(mapStateToProps, actions)(SortingTickets)
