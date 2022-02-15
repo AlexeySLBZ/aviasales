@@ -1,6 +1,5 @@
 import initialState from "./initialState"
 
-
 const reducerFilter = (state= initialState, action) => {
 
     switch (action.type) {
@@ -18,13 +17,11 @@ const reducerFilter = (state= initialState, action) => {
                         ...state,
                         checkBoxSettings:newCheckBoxSettings,
                     }
-                
-            };
-
+            }
+        break;
         case "CHECKED":
             const newCheckBoxSettings = state.checkBoxSettings.map((el) =>
                 ( el.id === action.payload ? {...el, isChecked: !el.isChecked}: el))
-
             const toggleAllChecked = () => {
                 const index = newCheckBoxSettings.slice(1)
                 const controlChecked = index.every(el=>el.isChecked===true)
@@ -35,10 +32,9 @@ const reducerFilter = (state= initialState, action) => {
                 toggleAllChecked()
                 return {...state,checkBoxSettings:newCheckBoxSettings}
             }
-
+        break;
         default:
             return state;
-
     }
 };
 

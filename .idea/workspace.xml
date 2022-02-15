@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="860a9b06-4c51-42c7-905e-2e1f81595559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/S7 Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/app.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/combineReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/initialState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reducerFetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reducerFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reducerSorting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vercel/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vercel/project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actionsForFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actionsForSortingTickets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/sortingTickets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/sortingTickets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ticket/ticketBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ticket/ticketBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middleware/allTickets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer/reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/initialState.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +233,7 @@
       <workItem from="1644666377068" duration="23753000" />
       <workItem from="1644743655429" duration="4420000" />
       <workItem from="1644779323304" duration="3618000" />
-      <workItem from="1644827619288" duration="1231000" />
+      <workItem from="1644827619288" duration="2538000" />
     </task>
     <servers />
   </component>
