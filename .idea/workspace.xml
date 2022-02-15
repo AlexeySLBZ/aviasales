@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="860a9b06-4c51-42c7-905e-2e1f81595559" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +120,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test" />
+        <script value="predeploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -134,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.lint:full" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +234,7 @@
       <workItem from="1644743655429" duration="4420000" />
       <workItem from="1644779323304" duration="3618000" />
       <workItem from="1644827619288" duration="4908000" />
-      <workItem from="1644921348865" duration="3354000" />
+      <workItem from="1644921348865" duration="4467000" />
     </task>
     <servers />
   </component>
