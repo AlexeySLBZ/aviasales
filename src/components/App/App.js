@@ -10,8 +10,6 @@ import SortingTickets from "../tabs/sortingTickets";
 import TicketBody from "../ticket/ticketBody";
 import {connect} from "react-redux";
 import * as actions from "../../actions/actions";
-import reducerFilter from '../../reducers/reducerFilter';
-
 const antIcon = <LoadingOutlined style={{fontSize: 24}} spin/>
 
 const marginSpinner = {
